@@ -5,7 +5,7 @@ import { Menu } from '../pages/Menu'
 import { Customers } from '../pages/Customers'
 import { Profits } from '../pages/Profits'
 import { Orders } from '../pages/Orders'
-import { Navbar } from './components/Navbar'
+import { Navbar } from '../components/Navbar'
 import { PageContent } from '../assets/css/style'
 
 export const RoutesApp = () => {

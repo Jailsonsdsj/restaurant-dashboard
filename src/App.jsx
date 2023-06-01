@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import { RoutesApp } from './Routes'
+import { RoutesApp } from './components/Routes'
+
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <>
-      <RoutesApp />
+     <RoutesApp />
     </>
   )
 }
