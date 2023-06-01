@@ -4,7 +4,19 @@ import { theme } from './style';
 import { Row, Space} from 'antd';
 
 
+export const NavbarLogo = styled.img`
+    max-width: 100px;
+    max-height: 100px;
 
+`
+export const NavbarLogoContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+`
 export const PageTitleStyle = styled.h1`
     font-size: ${theme.fontSize.largeTitle};
     font-weight: bold;

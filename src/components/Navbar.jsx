@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { NavbarContainer, NavbarItems, NavbarOption, NavbarLink, NavbarTitle} from '../assets/css/style'
+import { NavbarContainer, NavbarItems, NavbarOption, NavbarLink,} from '../assets/css/style'
+import { NavbarLogo, NavbarLogoContainer } from '../assets/css/componets.styled'
 import { HomeOutlined, ReadOutlined, SolutionOutlined,TeamOutlined,LineChartOutlined  } from '@ant-design/icons';
 
 export const Navbar = () => {
@@ -8,7 +9,9 @@ export const Navbar = () => {
     <>
    
     <NavbarContainer>
-    <NavbarTitle>POTA</NavbarTitle>
+        <NavbarLogoContainer>
+            <NavbarLogo src="../../public/logo.png"/>
+        </NavbarLogoContainer>
         <NavbarItems>
             <NavbarOption>
                 <NavbarLink to="/dashboard"> <HomeOutlined /> &nbsp; DASHBOARD</NavbarLink>

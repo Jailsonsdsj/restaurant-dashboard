@@ -10,7 +10,7 @@ import { Chart1 } from '../../components/Chart1'
 
 export const Dashboard = () => {
   const { cards, mostCustomers,mostDishes } = dashboardData
-
+   
   
   return (
     <>
