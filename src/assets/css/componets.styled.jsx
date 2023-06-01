@@ -15,7 +15,6 @@ export const NavbarLogoContainer = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: red;
 `
 export const PageTitleStyle = styled.h1`
     font-size: ${theme.fontSize.largeTitle};
