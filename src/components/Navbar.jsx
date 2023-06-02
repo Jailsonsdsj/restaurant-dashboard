@@ -14,7 +14,7 @@ export const Navbar = () => {
         </NavbarLogoContainer>
         <NavbarItems>
             <NavbarOption>
-                <NavbarLink to="/dashboard"> <HomeOutlined /> &nbsp; DASHBOARD</NavbarLink>
+                <NavbarLink to="/"> <HomeOutlined /> &nbsp; DASHBOARD</NavbarLink>
             </NavbarOption>
             <NavbarOption>
                 <NavbarLink to="/menu"><ReadOutlined /> &nbsp; CARDÁPIO</NavbarLink>
